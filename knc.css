@@ -1,0 +1,158 @@
+/* =====================================================Nav====================================================== */
+nav{
+    background-image:url(/img/navfond.jpg);
+    background-size:cover;
+    font-family:cursive;
+    color: white;
+    height: 600px;
+}
+nav img{
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+}
+
+nav ul {
+    display:flex;
+    list-style: none;
+    text-decoration: none;
+    margin: auto;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family:cursive;
+    color: white;
+    padding: 20px;
+    font-size:large;
+}
+nav button{
+    background-color: #2fcdd4;
+    border-radius: 10px;
+    margin-right: 50px;
+    color: white;
+    border: none;
+    padding: 13px;
+}
+.navpres{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 200px;
+}
+.hautnav{
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+}
+
+/* ========================================================bouton========================================= */
+
+#boutont{
+    background-color: #2fcdd4;
+    position: absolute;
+    position: fixed;
+    z-index: 1;
+    /* right: -155px; */
+    right: -155px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    padding: 15px;
+    color: white;
+    transition: left 1s, transform 1s;
+	white-space: nowrap;
+}
+#boutonm{
+    background-color: #2fcdd4;
+    position: absolute;
+    position: fixed;
+    z-index: 1;
+    /* right: -155px; */
+    right: -195px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    padding: 15px;
+    color: white;
+    transition: left 1s, transform 1s;
+	white-space: nowrap;
+}
+#bout{
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.hover-effect:hover {
+    right: 77%;
+	transform: translateX(-77%);
+}
+
+/* ========================================================contenu========================================= */
+
+.container-fluid{
+    margin-top: 100px;
+    text-align: center;
+    font-size: larger;
+}
+#contkn{
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#solu{
+    background-color: #f4f6fc;
+    margin-top: 400px;
+    height: 700px;
+}
+#sol{
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* ==============================================================footer==================================================== */
+
+footer{
+    color: white;
+}
+footer ul{
+    list-style: none;
+}
+#droit{
+    margin-top: 50px;
+}
+footer ul li{
+    padding: 10px;
+
+}
+#nom{
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bold;
+}
+#in{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+}
+#foova{
+    position: absolute;
+    top: 2080px;
+    left: 0;
+    padding: 0;
+}
+#foo{
+    padding: 50px;
+    margin-top: 600px;
+    background-color: #2fcdd4;
+    text-align: center;
+}
